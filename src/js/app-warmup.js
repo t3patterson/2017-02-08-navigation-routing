@@ -17,6 +17,7 @@ var membershipHtml = `
 		 
 	</div>
 `
+
 var screeningsHtml = `
 	<h2>Screenings</h2>
 	<p>Saturdays and Sundays in New York and Los Angeles</p>
@@ -26,6 +27,7 @@ var screeningsHtml = `
 
 	<p>Weekend Screenings from the Paley Archive on the Big Screen in NY & LA offer great family entertainment, PLUS programming selected by our Members and screened for the public. You haven't really experienced TV until you've seen it on a movie-size screen with fellow fans.</p>
 `
+
 var pressHtml = `
 		<h2>Press</h2>
 		<hr/>
@@ -44,6 +46,7 @@ var pressHtml = `
 		<h4>Register for Press Information</h4>
 		<p><small>Click to fill out the form</small></p>
 `
+
 var programsHtml = `
 	<h2>Public Programs</h2>
 	<ul>
@@ -70,6 +73,7 @@ tabsContainerEl.addEventListener('click', function(evt){
 	if( tab === 'programs'){  tabContentContainerEl.innerHTML = programsHtml }
 	if( tab === 'screenings'){  tabContentContainerEl.innerHTML = screeningsHtml }
 	if( tab === 'press'){  tabContentContainerEl.innerHTML = pressHtml }
+
 		
 })
 
